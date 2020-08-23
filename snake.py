@@ -1,7 +1,6 @@
 import gym
 from simple_dqn_torch_2020_snake import Agent
 import snake_gym
-# from utils import plotLearning
 import numpy as np
 import torch as T
 import sys
@@ -28,7 +27,6 @@ if __name__ == '__main__':
         score = 0
         pellets = 0
         survived = 0
-            
         while not done:
             survived+=1
             action = agent.choose_action(observation)
@@ -61,6 +59,3 @@ if __name__ == '__main__':
             file = open('./Trained_model/eps.txt','w')
             file.write(str(agent.epsilon))
             file.close()
-    # x = [i+1 for i in range(n_games)]
-    # filename = 'lunar_lander.png'
-    # plotLearning(x, scores, eps_history, filename)

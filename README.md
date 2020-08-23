@@ -1,5 +1,5 @@
 # RL-Snake-Gym
-AI to learn and play snake game using Reinforcement Learning
+AI to learn and play snake game using Deep Q Learning.
 
 ## Installation
     git clone https://github.com/PratheepSenthil/RL-Snake-Gym/
