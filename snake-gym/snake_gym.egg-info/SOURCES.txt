@@ -1,0 +1,12 @@
+LICENSE
+readme.md
+setup.py
+snake_gym/__init__.py
+snake_gym.egg-info/PKG-INFO
+snake_gym.egg-info/SOURCES.txt
+snake_gym.egg-info/dependency_links.txt
+snake_gym.egg-info/requires.txt
+snake_gym.egg-info/top_level.txt
+snake_gym/envs/__init__.py
+snake_gym/envs/multi_snake_env.py
+snake_gym/envs/snake_env.py
