@@ -1,6 +1,7 @@
 # Snake game as a Gym environment
 ## Installation
 ```
+pip install gym 
 git clone https://github.com/XFFXFF/snake-gym  
 cd snake-gym  
 pip install -e .
