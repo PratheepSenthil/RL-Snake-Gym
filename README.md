@@ -2,6 +2,7 @@
 AI to learn and play snake game using Deep Q Learning.
 
 ## Installation
+    pip install gym
     git clone https://github.com/PratheepSenthil/RL-Snake-Gym/
     cd RL-Snake-Gym
     pip install -r requirements.txt
